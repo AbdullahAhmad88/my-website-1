@@ -1,8 +1,9 @@
 ---
 layout: single
-title: "Welcome to my Engineering Portfolio"
 author_profile: true
 ---
+
+# Page Content Starts Here...
 
 # Abdullah Ahmad Mirza
 **BS Computer Engineering | UET Lahore (Faisalabad Campus)**
