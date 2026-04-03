@@ -1,19 +1,26 @@
 ---
-layout: single
-title: "Welcome to My Engineering Portfolio"
-author_profile: true
+layout: default
+title: Home
 ---
 
-### Student Credentials
-* **Name:** Abdullah Ahmad Mirza
+# Abdullah Ahmad Mirza
+**BS Computer Engineering | UET Lahore (Faisalabad Campus)**
+
+---
+
+### 🎓 Student Credentials
 * **Roll Number:** 2025-BSCPE-131
 * **Section:** A
-* **Department:** Computer Engineering
-* **University:** UET Lahore (Faisalabad Campus)
+* **Major:** Computer Engineering
+* **Admission Date:** September 16, 2025
+
+### 🎯 Professional Objective
+I am a Computer Engineering student specializing in the intersection of hardware logic and software architecture. My work focuses on building deterministic systems using **C#**, **SQL**, and high-integrity engineering documentation. I aim to leverage my technical foundation at UET to contribute to global engineering projects and innovative software solutions.
+
+### 📝 Latest from the Blog
+* [The Road to UET: My ECAT Journey]({{ site.baseurl }}/2026/04/03/my-journey-to-uet/)
+* [Global Engineering Ambitions]({{ site.baseurl }}/2026/04/04/global-engineering-ambitions/)
 
 ---
 
-### Professional Objective
-I am a Computer Engineering student specializing in the intersection of hardware logic and software architecture. My work focuses on building deterministic systems using **C#**, **SQL**, and high-integrity engineering documentation.
-
-**NAME: ABDULLAH AHMAD MIRZA | ROLL NO: 2025-BSCPE-131 | SECTION: A**
+> **NAME: ABDULLAH AHMAD MIRZA | ROLL NO: 2025-BSCPE-131 | SECTION: A**
