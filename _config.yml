@@ -1,20 +1,8 @@
 title: "Abdullah Ahmad Mirza"
-description: "Computer Engineering Student | UET Faisalabad"
-theme: jekyll-theme-cayman # This is built into GitHub and won't crash
-remote_theme: null 
+description: "BS Computer Engineering | UET Lahore (Faisalabad Campus)"
+theme: jekyll-theme-cayman
+baseurl: "/my-website-1"
+url: "https://abdullahahmad88.github.io"
 
-# Personal Info
-name: "Abdullah Ahmad Mirza"
-roll_no: "2025-BSCPE-131"
-section: "A"
-
-# Social Links
-linkedin: "https://www.linkedin.com/in/abdullah-ahmad-mirza-2b9656378"
-email: "abdullahahmadmirza42@gmail.com"
-
-# Navigation (Simple)
-header_pages:
-  - index.md
-  - about.md
-  - blog.html
-  - contact.md
+# This helps GitHub find your posts correctly
+permalink: /:year/:month/:day/:title/
