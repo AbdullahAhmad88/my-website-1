@@ -1,8 +1,51 @@
 title: "Abdullah Ahmad Mirza"
-description: "BS Computer Engineering | UET Lahore (Faisalabad Campus)"
-theme: jekyll-theme-cayman
-baseurl: "/my-website-1"
+name: "Abdullah Ahmad Mirza"
+description: "Computer Engineering | UET Faisalabad"
 url: "https://abdullahahmad88.github.io"
+baseurl: "/my-website-1"
 
-# This helps GitHub find your posts correctly
-permalink: /:year/:month/:day/:title/
+# Theme Settings
+remote_theme: "mmistakes/minimal-mistakes@4.24.4"
+minimal_mistakes_skin: "contrast" # This gives the professional dark/high-contrast look
+
+# Plugins
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Author Profile (The Sidebar)
+author:
+  name: "Abdullah Ahmad Mirza"
+  avatar: "/profile.jpeg" # Make sure you have an image named profile.jpeg in your root folder
+  bio: "BS Computer Engineering | UET Faisalabad (Section A)"
+  location: "Faisalabad, Pakistan"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/abdullah-ahmad-mirza-2b9656378"
+
+# Navigation
+header:
+  nav_links:
+    - title: "Home"
+      url: "/"
+    - title: "About"
+      url: "/about/"
+    - title: "Blog"
+      url: "/blog/"
+    - title: "Contact"
+      url: "/contact/"
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+    values:
+      layout: single
+      author_profile: true
