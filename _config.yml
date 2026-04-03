@@ -2,18 +2,20 @@ title: "Abdullah Ahmad Mirza"
 name: "Abdullah Ahmad Mirza"
 url: "https://abdullahahmad88.github.io"
 baseurl: "/my-website-1"
+repository: "AbdullahAhmad88/my-website-1"
 
-# Theme Configuration
+# Theme settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.4"
 minimal_mistakes_skin: "contrast"
 
-# Minimal Mistakes requires this to avoid build errors
-repository: "AbdullahAhmad88/my-website-1"
+# Minimal Mistakes requires these plugins
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
 
-# Sidebar Configuration
+# Sidebar details
 author:
   name: "Abdullah Ahmad Mirza"
-  avatar: "/profile.jpeg"
   bio: "BS Computer Engineering | UET Faisalabad (Section A)"
   location: "Faisalabad, Pakistan"
   links:
@@ -21,7 +23,7 @@ author:
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/abdullah-ahmad-mirza-2b9656378"
 
-# Navigation
+# Menu configuration
 header:
   nav_links:
     - title: "Home"
@@ -33,15 +35,9 @@ header:
     - title: "Contact"
       url: "/contact/"
 
-# Default settings to apply layouts
 defaults:
   - scope:
       path: ""
-    values:
-      layout: "single"
-      author_profile: true
-  - scope:
-      path: "_posts"
     values:
       layout: "single"
       author_profile: true
