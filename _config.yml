@@ -1,35 +1,52 @@
 title: "Abdullah Ahmad Mirza"
 name: "Abdullah Ahmad Mirza"
 description: "Computer Engineering Student | UET Faisalabad"
-url: "https://your-username.github.io" # Replace with your GitHub URL
-baseurl: ""
+url: "https://abdullahahmad88.github.io"
+baseurl: "/my-website-1" # This must match your repo name exactly
 
 # Theme Settings
 remote_theme: "mmistakes/minimal-mistakes@4.24.4"
-minimal_mistakes_skin: "contrast" # This gives you the high-contrast dark look you want
+minimal_mistakes_skin: "contrast"
 
-# Site Author
+# Plugins
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Author Profile (Sidebar)
 author:
   name: "Abdullah Ahmad Mirza"
   avatar: "/profile.jpeg"
-  bio: "Computer Engineering Student at UET Faisalabad (Section A)"
+  bio: "BS Computer Engineering | UET Faisalabad (Section A)"
   location: "Faisalabad, Pakistan"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/abdullah-ahmad-mirza-2b9656378"
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:abdullahahmadmirza42@gmail.com"
 
-# Navigation
+# Navigation links
 header:
-  overlay_filter: 0.5
-  teaser: "/assets/images/teaser.jpg"
+  nav_links:
+    - title: "Home"
+      url: "/"
+    - title: "About"
+      url: "/about/"
+    - title: "Blog"
+      url: "/year-archive/"
+    - title: "Contact"
+      url: "/contact/"
 
+# Footer with Roll No
 footer:
   links:
     - label: "Roll No: 2025-BSCPE-131 | Section: A | UET Faisalabad"
       url: "#"
 
-include: ["_pages"]
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
