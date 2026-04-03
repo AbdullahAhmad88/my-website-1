@@ -1,15 +1,14 @@
 ---
 layout: single
-title: "Contact Information"
+title: "Contact"
 permalink: /contact/
 author_profile: true
 ---
 
-### 📬 Get In Touch
+### 📬 Reach Out
 * **Email:** [abdullahahmadmirza42@gmail.com](mailto:abdullahahmadmirza42@gmail.com)
-* **LinkedIn:** [My Profile](https://www.linkedin.com/in/abdullah-ahmad-mirza-2b9656378)
+* **LinkedIn:** [My Professional Profile](https://www.linkedin.com/in/abdullah-ahmad-mirza-2b9656378)
 
-### 🏫 Campus Location
+### 🏫 Campus Details
 **Department of Computer Engineering** UET Lahore (Faisalabad Campus)  
-Khurrianwala, Faisalabad.  
 **Section A | Roll No: 2025-BSCPE-131**
