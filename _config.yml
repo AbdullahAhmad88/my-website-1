@@ -1,0 +1,35 @@
+title: "Abdullah Ahmad Mirza"
+name: "Abdullah Ahmad Mirza"
+description: "Computer Engineering Student | UET Faisalabad"
+url: "https://your-username.github.io" # Replace with your GitHub URL
+baseurl: ""
+
+# Theme Settings
+remote_theme: "mmistakes/minimal-mistakes@4.24.4"
+minimal_mistakes_skin: "contrast" # This gives you the high-contrast dark look you want
+
+# Site Author
+author:
+  name: "Abdullah Ahmad Mirza"
+  avatar: "/profile.jpeg"
+  bio: "Computer Engineering Student at UET Faisalabad (Section A)"
+  location: "Faisalabad, Pakistan"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/abdullah-ahmad-mirza-2b9656378"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:abdullahahmadmirza42@gmail.com"
+
+# Navigation
+header:
+  overlay_filter: 0.5
+  teaser: "/assets/images/teaser.jpg"
+
+footer:
+  links:
+    - label: "Roll No: 2025-BSCPE-131 | Section: A | UET Faisalabad"
+      url: "#"
+
+include: ["_pages"]
