@@ -1,9 +1,9 @@
 ---
 layout: single
-title: "About Me"
-permalink: /about/
 author_profile: true
 ---
+
+# Page Content Starts Here...
 
 I am a dedicated Computer Engineering student at **UET Faisalabad**. My academic journey is built on a strong foundation of Mathematics and Physics, refined through the rigorous ECAT process.
 
